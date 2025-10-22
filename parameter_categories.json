@@ -1,0 +1,74 @@
+{
+  "sqli": [
+    "id", "user_id", "product_id", "category_id", "page_id", "order_id", 
+    "item_id", "post_id", "article_id", "news_id", "customer_id", "account_id",
+    "uid", "uuid", "guid", "key", "code", "ref", "reference", "num", "number",
+    "search", "query", "q", "s", "term", "keyword", "filter", "sort", "order",
+    "username", "user", "email", "mail", "login", "password", "pass", "pwd",
+    "name", "firstname", "lastname", "address", "phone", "mobile", "zip", "zipcode"
+  ],
+  "xss": [
+    "q", "query", "search", "s", "keyword", "term", "find", "lookfor",
+    "redirect", "return", "return_url", "return_to", "url", "link", "href",
+    "message", "msg", "error", "err", "success", "info", "warning", "alert",
+    "name", "title", "subject", "topic", "header", "footer", "description",
+    "comment", "feedback", "review", "note", "content", "body", "text",
+    "first_name", "last_name", "username", "email", "mail", "phone", "address",
+    "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
+    "gclid", "fbclid", "msclkid", "trk", "tracking", "campaign", "source"
+  ],
+  "ssrf": [
+    "url", "link", "href", "image", "img", "picture", "pic", "photo", "avatar",
+    "file", "path", "location", "redirect", "return", "return_url", "return_to",
+    "callback", "cb", "next", "continue", "target", "destination", "goto",
+    "load", "import", "include", "require", "fetch", "get", "post", "request",
+    "endpoint", "api", "service", "proxy", "bridge", "gateway", "tunnel",
+    "webhook", "hook", "notification", "alert", "ping", "health", "status"
+  ],
+  "lfi": [
+    "file", "page", "path", "load", "include", "require", "import", "export",
+    "document", "doc", "pdf", "docx", "template", "layout", "theme", "skin",
+    "view", "display", "show", "content", "body", "text", "data", "info",
+    "download", "upload", "attachment", "attach", "save", "open", "read",
+    "config", "configuration", "setting", "profile", "preference", "option",
+    "lang", "language", "locale", "country", "region", "currency", "timezone"
+  ],
+  "open_redirect": [
+    "redirect", "redirect_uri", "redirect_url", "return", "return_url", "return_to",
+    "next", "continue", "goto", "go", "target", "destination", "forward", "follow",
+    "url", "link", "href", "location", "callback", "cb", "r", "u", "uri",
+    "success", "success_url", "error", "error_url", "cancel", "cancel_url",
+    "logout", "logout_url", "login", "login_url", "signin", "signin_url"
+  ],
+  "command_injection": [
+    "cmd", "command", "exec", "execute", "run", "system", "process", "shell",
+    "ping", "traceroute", "tracert", "nslookup", "dig", "whois", "host",
+    "ip", "domain", "hostname", "server", "port", "service", "daemon",
+    "script", "batch", "sh", "bash", "zsh", "python", "php", "perl", "ruby",
+    "input", "output", "stdin", "stdout", "stderr", "pipe", "filter", "sort"
+  ],
+  "auth_bypass": [
+    "admin", "administrator", "root", "superuser", "super", "moderator", "mod",
+    "user", "username", "login", "email", "mail", "account", "member",
+    "password", "pass", "pwd", "secret", "token", "key", "code", "pin",
+    "session", "sessionid", "sessid", "sid", "cookie", "auth", "authentication",
+    "access", "access_token", "refresh_token", "jwt", "bearer", "oauth",
+    "privilege", "role", "permission", "right", "level", "status", "type"
+  ],
+  "business_logic": [
+    "price", "cost", "amount", "total", "subtotal", "discount", "coupon", "promo",
+    "quantity", "qty", "count", "number", "limit", "max", "min", "threshold",
+    "status", "state", "phase", "stage", "step", "level", "tier", "grade",
+    "role", "type", "category", "group", "class", "kind", "sort", "order",
+    "user_id", "account_id", "customer_id", "order_id", "transaction_id",
+    "balance", "credit", "debit", "points", "reward", "bonus", "commission"
+  ],
+  "info_disclosure": [
+    "debug", "test", "testing", "demo", "development", "dev", "stage", "staging",
+    "verbose", "verbose_mode", "trace", "tracing", "log", "logging", "logger",
+    "error", "error_message", "err", "exception", "stack", "stacktrace", "traceback",
+    "info", "information", "details", "full", "complete", "extended", "advanced",
+    "config", "configuration", "setting", "env", "environment", "system", "server",
+    "version", "v", "rev", "revision", "build", "release", "patch", "update"
+  ]
+}
