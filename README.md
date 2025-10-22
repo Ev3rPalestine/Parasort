@@ -45,7 +45,7 @@ cd parasort
 # Install dependencies
 pip install -r requirements.txt
 ```
-## Help
+## Available Arguments
 ```bash
 Options:
   -h, --help            Show this help message and exit
@@ -79,14 +79,14 @@ Options:
     parasort.py -i urls.txt -o results
 
   Specific vulnerabilities:  
-    parasort.py -i urls.txt -o output --vuln sqli xss
+    parasort.py -i urls.txt -o results --vuln sqli xss
 
   Custom parameters:
-    parasort.py -i urls.txt -o output -cp "id,user,cmd"
-    parasort.py -i urls.txt -o output -f my_params.txt
+    parasort.py -i urls.txt -o results -cp "id,user,cmd"
+    parasort.py -i urls.txt -o results -f my_params.txt
 
   Advanced options:
-    parasort.py -i urls.txt -o output --clear -v
+    parasort.py -i urls.txt -o results --clear -v
 ```
 
 ## Basic Usage
@@ -133,7 +133,7 @@ python parasort.py -i urls.txt -o output -s
 
 #### - Custom Parameters
 
-    -c, --custom-params PARAM - Custom parameters to search for
+    -cp, --custom-params PARAM - Custom parameters to search for (comma or space separated)
 
     -f, --custom-params-file FILE - File with custom parameters (one per line)
 
