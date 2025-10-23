@@ -209,7 +209,7 @@ results/
 ## Configuration
 #### - Parameter Categories File
 
-The parameter_categories.json file defines which parameters belong to each vulnerability category. You can customize this file to add or remove parameters:
+The parameter_categories.json file is created and located in directory named ".parasort" in the home directory of the user, it defines which parameters belong to each vulnerability category. You can customize this file to add or remove parameters:
 
 ```json
 {
