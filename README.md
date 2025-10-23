@@ -40,7 +40,7 @@ by Ev3rPalestine
 ```bash
 
 git clone https://github.com/Ev3rPalestine/parasort.git
-cd parasort
+cd Parasort
 pip3 install .
 ```
 ## Example
