@@ -39,7 +39,7 @@ by Ev3rPalestine
 
 ```bash
 
-git clone https://github.com/Ev3rPalestine/parasort.git
+git clone https://github.com/Ev3rPalestine/Parasort.git
 cd Parasort
 pip3 install .
 ```
