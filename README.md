@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Author](https://img.shields.io/badge/Author-Ev3rPalestine-orange)
 
-```bash
+```text
 ██████╗  █████╗ ██████╗  █████╗ ███████╗ ██████╗ ██████╗ ████████╗
 ██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔════╝██╔═══██╗██╔══██╗╚══██╔══╝
 ██████╔╝███████║██████╔╝███████║███████╗██║   ██║██████╔╝   ██║
